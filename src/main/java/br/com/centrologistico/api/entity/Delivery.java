@@ -17,7 +17,7 @@ public class Delivery {
 	
 	private Long vehicle;
 	
-	@OneToMany(mappedBy = "pckage")
+	@OneToMany(mappedBy = "delivery")
 	private List<Packages> packages;
 
 	public Long getDeliveryId() {

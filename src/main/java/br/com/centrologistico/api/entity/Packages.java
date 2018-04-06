@@ -16,7 +16,7 @@ public class Packages {
 	private Double weight;
 	
 	@ManyToOne
-	private Packages pckage;
+	private Delivery delivery;
 
 	public Long getId() {
 		return id;
@@ -34,13 +34,13 @@ public class Packages {
 		this.weight = weight;
 	}
 
-	public Packages getPckage() {
-		return pckage;
+	public Delivery getDelivery() {
+		return delivery;
 	}
 
-	public void setPckage(Packages pckage) {
-		this.pckage = pckage;
+	public void setDelivery(Delivery delivery) {
+		this.delivery = delivery;
 	}
-	
+
 	
 }
